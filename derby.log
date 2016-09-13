@@ -1,0 +1,18 @@
+----------------------------------------------------------------
+Sat Jul 02 16:11:06 EEST 2016:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.1 - (1616546): instance a816c00e-0155-abba-6cee-000015efbdf8 
+on database directory C:\Users\sanak\JPA Workspace\CM with class loader WebappClassLoader
+  context: SiteDB_Beta
+  delegate: false
+----------> Parent Classloader:
+java.net.URLClassLoader@76ed5528
+ 
+Loaded from file:/C:/Users/sanak/JPA%20Workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/SiteDB_Beta/WEB-INF/lib/derby-10.11.1.1.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_92-b14
+user.dir=C:\Users\sanak\JPA Workspace\SiteDB_Beta
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

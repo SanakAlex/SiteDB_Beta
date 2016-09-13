@@ -1,0 +1,25 @@
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+   <definition name="template" template="/WEB-INF/view/main_template.jsp"> 
+		<put-attribute name="header" value="/WEB-INF/view/tiles/header.jsp" />
+		<put-attribute name="footer"   value="/WEB-INF/view/tiles/footer.jsp" />
+   </definition>
+   <definition name="listOfDirectories" extends="template">
+		<put-attribute name="body" value="/WEB-INF/view/listOfDirectories.jsp" />
+   </definition>
+   <definition name="newDirectory" extends="template">
+		<put-attribute name="body" value="/WEB-INF/view/newDirectory.jsp" />
+   </definition>
+   <definition name="listOfLinks" extends="template">
+		<put-attribute name="body" value="/WEB-INF/view/listOfLinks.jsp" />
+   </definition>
+   <definition name="newLink" extends="template">
+		<put-attribute name="body" value="/WEB-INF/view/newLink.jsp" />
+   </definition>
+   <definition name="all" extends="template">
+		<put-attribute name="body" value="/WEB-INF/view/all.jsp" />
+   </definition>
+</tiles-definitions>
+	      
